@@ -1,0 +1,10 @@
+# TODO
+
+- [x] **Route authenticated users by saved RecruitFlow role.** After sign-in or session restoration, load the user's profile; users without a role enter role setup, and users with a completed role profile reach the matching Employer or Candidate dashboard. Keep the Register page's sign-in/create-account switch in the same component.
+- [x] **Provide five-stage Employer or Candidate onboarding.** Collect and save role-specific information, then review it before opening the role dashboard. Candidate details include name, professional headline, location, experience, employment preference, skills, summary, LinkedIn, portfolio, and optional resume link. Employer details include contact name, company name, website, industry, company size, location, description, LinkedIn, phone, and hiring focus.
+- [x] **Deliver a separate Candidate dashboard.** Show profile context, application metrics, activity charts, recent status details, and truthful empty states from the candidate's saved data.
+- [x] **Deliver a separate Employer dashboard.** Show company context, owned jobs and applicant activity, job/application metrics, chart date ranges, and truthful empty states from the employer's saved data.
+- [x] **Provide employer job posting and Candidate job discovery.** The Employer dashboard opens a three-step job composer with role essentials, responsibilities/qualifications, compensation, preview, publish, and draft options. Candidates can browse, search, filter, sort, and paginate open jobs.
+- [x] **Persist and secure role data.** Extend the connected Supabase schema and add candidate profile details with row-level security. The app reuses existing jobs and applications tables rather than creating duplicates.
+- [x] **Apply the additive Supabase migration to the connected project.** A different Supabase project will require a separate schema review and migration application.
+- [x] **Make onboarding and dashboards responsive and usable.** Retain the RecruitFlow palette, provide loading/error states, support keyboard interaction, preserve content visibility, and respect reduced-motion preferences.

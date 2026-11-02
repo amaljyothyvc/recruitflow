@@ -1,0 +1,25 @@
+/* Post-role visual cleanup: append to src/App.css */
+.job-composer .post-job-heading{border-bottom-color:#dceaf0}
+.job-composer .post-job-heading h2{color:#176da3;font-size:30px;letter-spacing:-1px}
+.job-composer .composer-section-heading{position:relative;margin:0 0 16px;padding:12px 15px;border-left:3px solid #30a28b;border-radius:0 9px 9px 0;background:linear-gradient(100deg,#edf6f9 0%,#f7fbfc 68%,transparent 100%)}
+.job-composer .composer-section-heading>span{display:inline-flex;padding:4px 7px;border-radius:4px;background:#dceef3;color:#26749a;font-size:9px;letter-spacing:1px}
+.job-composer .composer-section-heading h3{margin:8px 0 4px;color:#176da3;background:linear-gradient(100deg,#176da3,#288b99 85%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:23px;letter-spacing:-.7px}
+.job-composer .composer-section-heading p{margin:0;color:#627f91;font-size:12px;line-height:1.65}
+.composer-validation{display:flex;align-items:flex-start;gap:10px;width:100%;padding:12px 14px;border:1px solid #f0d7bd;border-left:3px solid #d5904e;border-radius:8px;background:linear-gradient(100deg,#fff9f1,#fffdf9);box-shadow:0 5px 16px #6f4b2010;animation:composer-guidance-in .24s ease-out both}
+.composer-validation>span{flex:none;width:20px;height:20px;display:grid;place-items:center;border-radius:50%;background:#f8e8d5;color:#99602e;font:700 12px Manrope,sans-serif}
+.composer-validation>div{display:grid;gap:3px}
+.composer-validation strong{color:#88582f;font:700 11px Manrope,sans-serif}
+.composer-validation p{margin:0;color:#805e40;font:400 11px/1.55 'DM Sans',sans-serif}
+.composer-validation.compact{flex:1;min-width:150px;padding:8px 9px;box-shadow:none}
+.composer-validation.compact>span{width:17px;height:17px;font-size:10px}
+.composer-validation.compact strong{font-size:10px}
+.composer-validation.compact p{font-size:10px}
+.composer-error{margin:12px 0 0}
+.composer-field.needs-value{color:#8d5a43}
+.composer-field input[aria-invalid="true"],.composer-field textarea[aria-invalid="true"]{border-color:#d79876;background:#fffdfa;box-shadow:0 0 0 3px #d7987617}
+.composer-field .composer-required-hint{color:#a26348;font-size:11px;font-weight:600}
+.job-composer .post-job-submit{background:linear-gradient(110deg,#176da3,#248798);border-color:#176da3;box-shadow:0 7px 18px #176da326}
+.job-composer .post-job-submit:hover:not(:disabled){background:linear-gradient(110deg,#125e90,#1d7c88);box-shadow:0 10px 23px #176da333}
+@keyframes composer-guidance-in{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:600px){.job-composer .post-job-heading h2{font-size:25px}.job-composer .composer-section-heading h3{font-size:20px}.composer-validation{padding:10px}.composer-validation.compact{order:3;flex-basis:100%}}
+@media(prefers-reduced-motion:reduce){.composer-validation{animation:none!important}}

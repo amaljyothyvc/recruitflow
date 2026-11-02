@@ -1,0 +1,25 @@
+/* Readability pass: append to the end of src/App.css */
+.desk-app .desk-overline,.jobs-app .jobs-kicker{font-size:9px}
+.desk-app .desk-context-role,.desk-app .desk-session-dot,.desk-app .desk-metric-label{font-size:10px}
+.desk-app .desk-metric>small,.desk-app .desk-panel-top p,.desk-app .desk-chart-summary>span:nth-child(2),.desk-app .desk-chart-key,.desk-app .desk-range,.desk-app .desk-range select,.desk-app .desk-chart-note,.desk-app .journey-step>small,.desk-app .desk-total-chip,.desk-app .candidate-card>p,.desk-app .candidate-skill-set span,.desk-app .candidate-card-foot span,.desk-app .candidate-card-foot strong,.desk-app .desk-activity-date,.desk-app .desk-activity-copy small,.desk-app .desk-status-label,.desk-app .flow-step,.desk-app .flow-footnote,.desk-app .role-ledger-title small,.desk-app .role-state,.desk-app .role-app-count small,.desk-app .dossier-meta,.desk-app .dossier-link{font-size:9px}
+.desk-app .desk-activity-copy strong,.desk-app .flow-name,.desk-app .dossier-focus{font-size:10px}
+.desk-app .plot-labels{font-size:9px}
+.desk-app .candidate-card h2,.desk-app .company-dossier h2{font-size:17px}
+.jobs-app .jobs-breadcrumb,.jobs-app .jobs-breadcrumb button,.jobs-app .jobs-breadcrumb strong,.jobs-app .jobs-user-name,.jobs-app .jobs-search-field input,.jobs-app .jobs-sort-field select,.jobs-app .jobs-filter-heading>button,.jobs-app .jobs-filter-group h2,.jobs-app .jobs-type-list button,.jobs-app .jobs-industry-select,.jobs-app .jobs-results-head p,.jobs-app .jobs-results-index,.jobs-app .job-card-meta,.jobs-app .job-card-details,.jobs-app .job-open-button,.jobs-app .jobs-pagination,.jobs-app .jobs-empty p,.jobs-app .jobs-empty button{font-size:10px}
+.jobs-app .jobs-hero-copy>p{font-size:13px}
+.jobs-app .jobs-results-head h2{font-size:21px}
+.jobs-app .job-card-main h3{font-size:16px}
+.jobs-app .job-description{font-size:10px}
+.jobs-app .jobs-filter-heading .jobs-kicker,.jobs-app .jobs-sort-field,.jobs-app .jobs-results-index small,.jobs-app .jobs-pagination button,.jobs-app .jobs-footer{font-size:9px}
+.jobs-app .job-salary{font-size:10px}
+@media(max-width:600px){
+  .desk-app .desk-overline,.jobs-app .jobs-kicker{font-size:8px}
+  .desk-app .desk-metric-label,.desk-app .desk-panel-top p,.desk-app .desk-range select,.desk-app .desk-total-chip,.desk-app .journey-step>small,.desk-app .desk-activity-copy small,.desk-app .desk-status-label{font-size:9px}
+  .desk-app .desk-metric>small,.desk-app .candidate-skill-set span,.desk-app .candidate-card-foot span,.desk-app .candidate-card-foot strong,.desk-app .desk-chart-note,.desk-app .plot-labels{font-size:8px}
+  .jobs-app .jobs-breadcrumb,.jobs-app .jobs-breadcrumb button,.jobs-app .jobs-breadcrumb strong,.jobs-app .jobs-user-name,.jobs-app .jobs-search-field input,.jobs-app .jobs-sort-field select,.jobs-app .jobs-filter-group h2,.jobs-app .jobs-type-list button,.jobs-app .jobs-industry-select,.jobs-app .jobs-results-head p,.jobs-app .jobs-results-index,.jobs-app .job-card-meta,.jobs-app .job-card-details,.jobs-app .job-open-button,.jobs-app .jobs-empty p,.jobs-app .jobs-empty button{font-size:9px}
+  .jobs-app .jobs-hero-copy>p{font-size:10px}
+  .jobs-app .jobs-results-head h2{font-size:18px}
+  .jobs-app .job-card-main h3{font-size:14px}
+  .jobs-app .job-description{font-size:9px}
+  .jobs-app .job-salary{font-size:9px}
+}

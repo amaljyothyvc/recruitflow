@@ -1,0 +1,79 @@
+/* Readability + motion pass — append this file's contents to src/App.css */
+/* Keep every page readable at rest; reserve emphasis/fade for pointer and keyboard interaction. */
+.onboard-page .step-label,.onboard-page .stage-segment small,.onboard-page .onboard-stage-note strong,.onboard-page .account-email small,.onboard-page .review-grid small{font-size:10px}
+.onboard-page .onboard-aside>p,.onboard-page .field-hint,.onboard-page .save-note,.onboard-page .account-email strong,.onboard-page .review-grid span,.onboard-page .review-grid strong{font-size:12px}
+.onboard-page .onboard-card label,.onboard-page .onboard-card .field>span,.onboard-page .onboard-card small{font-size:12px}
+.onboard-page .onboard-card input,.onboard-page .onboard-card select,.onboard-page .onboard-card textarea{font-size:14px;min-height:44px}
+.onboard-page .onboard-card .primary-button,.onboard-page .onboard-card .secondary-button{font-size:14px;min-height:46px}
+.rf-page .rf-eyebrow,.rf-page .rf-card-kicker{font-size:12px!important}
+.rf-page .rf-benefit small,.rf-page .rf-card-subtitle,.rf-page .rf-form label{font-size:14px!important}
+.rf-page .rf-form input{font-size:16px!important;min-height:48px}
+.rf-page .rf-show-password{font-size:12px!important}
+.rf-page .rf-terms,.rf-page .rf-alert,.rf-page .rf-card-footer{font-size:12px!important}
+.rf-page .rf-submit{font-size:15px!important}
+.rf-page{height:auto!important;min-height:100dvh;overflow-x:hidden!important;overflow-y:auto!important}
+.rf-page .rf-form-active .rf-intro{opacity:.72!important;filter:saturate(.86)!important}
+.desk-app .desk-overline{font-size:10px}
+.desk-app .desk-session-dot,.desk-app .desk-context-role,.desk-app .desk-metric-label,.desk-app .desk-panel-top p,.desk-app .desk-chart-summary>span:nth-child(2),.desk-app .desk-chart-key,.desk-app .desk-range,.desk-app .desk-range select,.desk-app .desk-chart-note,.desk-app .journey-step>small,.desk-app .desk-total-chip,.desk-app .candidate-card>p,.desk-app .candidate-skill-set span,.desk-app .candidate-card-foot span,.desk-app .candidate-card-foot strong,.desk-app .desk-activity-date,.desk-app .desk-activity-copy small,.desk-app .desk-status-label,.desk-app .flow-step,.desk-app .flow-footnote,.desk-app .role-ledger-title small,.desk-app .role-state,.desk-app .role-app-count small,.desk-app .dossier-meta,.desk-app .dossier-link{font-size:11px}
+.desk-app .desk-metric>small,.desk-app .plot-labels,.desk-app .role-app-count small,.desk-app .desk-footer{font-size:10px}
+.jobs-app .jobs-kicker,.jobs-app .jobs-breadcrumb,.jobs-app .jobs-breadcrumb button,.jobs-app .jobs-breadcrumb strong,.jobs-app .jobs-user-name,.jobs-app .jobs-search-field input,.jobs-app .jobs-sort-field,.jobs-app .jobs-sort-field select,.jobs-app .jobs-filter-heading>button,.jobs-app .jobs-filter-group h2,.jobs-app .jobs-type-list button,.jobs-app .jobs-type-list button small,.jobs-app .jobs-industry-select,.jobs-app .jobs-results-head p,.jobs-app .jobs-results-index,.jobs-app .jobs-results-index small,.jobs-app .job-card-meta,.jobs-app .job-card-details,.jobs-app .job-open-button,.jobs-app .job-description,.jobs-app .jobs-pagination,.jobs-app .jobs-pagination button,.jobs-app .jobs-empty p,.jobs-app .jobs-empty button,.jobs-app .jobs-filter-note p{font-size:11px}
+.jobs-app .jobs-results-head h2{font-size:22px}
+.jobs-app .job-card-main h3{font-size:18px}
+.jobs-app .job-description{line-height:1.8}
+.jobs-app .job-meta-chip{font-size:10px!important}
+.post-job-backdrop{overflow-y:auto;align-items:start;padding:clamp(12px,3vh,28px) 16px}
+.post-job-modal{width:min(920px,100%);max-height:92dvh;overscroll-behavior:contain}
+.job-composer{width:min(920px,100%);max-height:92dvh;padding:28px 30px 24px}
+.post-job-heading h2{font-size:29px}
+.post-job-heading p{font-size:13px}
+.composer-step{font-size:11px}
+.composer-step i{width:25px;height:25px;font-size:10px}
+.composer-section-heading>span{font-size:9px}
+.composer-section-heading h3{font-size:21px}
+.composer-section-heading p{font-size:12px}
+.composer-field,.salary-fields .composer-field{font-size:12px}
+.composer-field>span,.composer-field>small{font-size:11px}
+.composer-field input,.composer-field select,.composer-field textarea,.salary-fields .composer-field input,.salary-fields .composer-field select{font-size:14px;min-height:44px}
+.composer-field textarea{min-height:102px;line-height:1.65}
+.composer-footer>span{font-size:10px}
+.composer-footer .post-job-submit,.composer-footer .post-job-cancel,.post-job-submit,.post-job-cancel{font-size:12px}
+.live-preview-top strong{font-size:11px}
+.live-preview-top small,.preview-live-badge,.preview-department,.preview-tags span,.preview-pay>span,.salary-fields .composer-field{font-size:10px}
+.role-live-preview h4{font-size:19px}
+.preview-company-meta,.preview-summary{font-size:12px;line-height:1.7}
+.preview-pay small{font-size:9px}
+.preview-pay strong{font-size:15px}
+.publish-choice strong{font-size:11px}
+.publish-choice small{font-size:10px}
+
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+  .onboard-card,.rf-card,.desk-panel,.desk-metric,.job-opportunity,.job-composer,.role-live-preview,.publish-settings,.composer-field input,.composer-field select,.composer-field textarea,.onboard-card input,.onboard-card select,.onboard-card textarea{transition:transform .28s cubic-bezier(.2,.75,.25,1),box-shadow .28s,border-color .28s,opacity .28s,filter .28s}
+  .onboard-card:hover,.onboard-card:focus-within,.rf-card:hover,.rf-card:focus-within,.desk-panel:hover,.desk-panel:focus-within,.job-opportunity:hover,.job-opportunity:focus-within,.role-live-preview:hover,.publish-settings:hover{transform:translateY(-3px) scale(1.012);box-shadow:0 16px 38px #123c5518;border-color:#b7d2e0}
+  .desk-metric:hover,.desk-metric:focus-within{transform:translateY(-3px) scale(1.035);box-shadow:0 10px 24px #123c5519;z-index:2}
+  .onboard-layout:has(.onboard-card:hover) .onboard-aside,.onboard-layout:has(.onboard-card:focus-within) .onboard-aside{opacity:.78;transform:translateX(-3px) scale(.992);filter:saturate(.85)}
+  .rf-form-active .rf-intro{opacity:.72!important;filter:saturate(.86)!important;transform:scale(.99)}
+  .desk-app:has(.desk-panel:hover) .desk-panel:not(:hover),.desk-app:has(.desk-panel:focus-within) .desk-panel:not(:focus-within){opacity:.78;transform:scale(.994)}
+  .desk-metric-band:has(.desk-metric:hover) .desk-metric:not(:hover),.desk-metric-band:has(.desk-metric:focus-within) .desk-metric:not(:focus-within){opacity:.78}
+  .jobs-list:has(.job-opportunity:hover) .job-opportunity:not(:hover),.jobs-list:has(.job-opportunity:focus-within) .job-opportunity:not(:focus-within){opacity:.78;transform:scale(.994)}
+  .jobs-workspace:has(.jobs-filter-rail:hover) .jobs-results,.jobs-workspace:has(.jobs-filter-rail:focus-within) .jobs-results{opacity:.86;transform:scale(.997)}
+  .jobs-workspace:has(.jobs-results:hover) .jobs-filter-rail,.jobs-workspace:has(.jobs-results:focus-within) .jobs-filter-rail{opacity:.82}
+  .composer-fields:has(.composer-field:focus-within) .composer-field:not(:focus-within){opacity:.9}
+  .composer-field:focus-within input,.composer-field:focus-within select,.composer-field:focus-within textarea,.onboard-card input:focus,.onboard-card select:focus,.onboard-card textarea:focus{transform:scale(1.012);box-shadow:0 0 0 4px #176da31a}
+  .composer-step.active{filter:drop-shadow(0 3px 7px #176da325)}
+  .post-job-submit:hover:not(:disabled),.post-job-cancel:hover:not(:disabled),.jobs-app button:hover:not(:disabled),.desk-explore-jobs:hover{transform:translateY(-2px) scale(1.025)}
+}
+@media(max-width:600px){
+  .onboard-page .stage-segment small{font-size:9px}
+  .onboard-page .onboard-aside>p{font-size:14px}
+  .onboard-page .onboard-card label,.onboard-page .onboard-card .field>span,.onboard-page .onboard-card small{font-size:12px}
+  .jobs-app .jobs-hero-stats>span,.jobs-app .jobs-hero-stats>small{font-size:9px}
+  .jobs-app .jobs-type-list button,.jobs-app .jobs-filter-group h2,.jobs-app .jobs-filter-note p{font-size:10px}
+  .job-composer{padding:19px 15px 18px}
+  .composer-step{font-size:9px;line-height:1.35}
+  .composer-field,.composer-field>span,.composer-field>small{font-size:11px}
+  .composer-field input,.composer-field select,.composer-field textarea,.salary-fields .composer-field input,.salary-fields .composer-field select{font-size:14px;min-height:44px}
+  .composer-footer>span{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){
+  .onboard-page *,.rf-page *,.desk-app *,.jobs-app *,.job-composer *{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
